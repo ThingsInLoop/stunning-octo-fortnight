@@ -34,3 +34,6 @@
 # build dirs
 build*
 Build*
+
+# doc builds
+doc/doxygen/html*
