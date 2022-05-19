@@ -1,0 +1,10 @@
+#!/bin/sh
+# sof shell setup
+
+case ":${PATH}:" in
+  *:"$HOME/.sof/bin":*)
+    ;;
+  *)
+    export PATH="$HOME/.sof/bin:$PATH"
+    ;;
+esac
